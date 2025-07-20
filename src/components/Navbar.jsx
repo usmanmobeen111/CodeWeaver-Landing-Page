@@ -11,7 +11,7 @@ const Navbar = () => {
 
   return (
     <>
-      <nav className="flex justify-between px-10 items-center py-4">
+      <nav className="flex justify-between px-10 items-center py-4 shadow-2xl shadow-black/20">
         <div className="logo text-slate-800 flex gap-2 items-center">
           <img className="w-10" src="/logo.svg" alt="" />
           <h1 className="text-2xl font-bold">
