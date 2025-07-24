@@ -43,19 +43,3 @@
 
 ---
 
-## 📁 Folder Structure
-
-```bash
-codeweaver-landing/
-├── public/
-│   └── index.html
-├── src/
-│   ├── components/
-│   │   ├── Navbar.jsx
-│   │   ├── Hero.jsx
-│   │   └── Footer.jsx
-│   ├── App.jsx
-│   ├── index.css
-│   └── main.jsx
-├── tailwind.config.js
-└── README.md
