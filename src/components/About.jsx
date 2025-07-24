@@ -2,18 +2,22 @@ import React from "react";
 
 const About = () => {
   return (
-    <div className="p-20 text-slate-800">
-      <div className="flex items-center justify-center gap-10">
-        <div>
+    <div className="p-6 text-slate-800" id="about">
+      <div className="flex flex-col md:flex-row items-center justify-center gap-10">
+        
+        <div className="w-full max-w-[500px]">
           <img
-            className="w-[500px]"
+            className="w-full"
             src="/src/assets/3d-illustration-person-with-sunglasses.png"
-            alt=""
+            alt="Developer illustration"
           />
         </div>
-        <div className="w-[40vw]">
-          <h1 className="text-4xl font-bold text-first">About Me</h1>
-          <p className="text-xl">
+        
+        <div className="w-full md:w-[40vw]">
+          <h1 className="text-3xl md:text-4xl font-bold text-second mb-4 text-center md:text-left">
+            About Me
+          </h1>
+          <p className="text-lg md:text-xl leading-relaxed text-center md:text-left">
             I'm a self-taught developer from Lahore, Pakistan. I've worked with
             HTML, CSS, JavaScript, React, Tailwind, Node.js, MongoDB, and more.
             I create educational content for beginners on Instagram. My passion?
@@ -21,6 +25,7 @@ const About = () => {
             experiences.
           </p>
         </div>
+
       </div>
     </div>
   );
