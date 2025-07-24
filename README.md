@@ -1,12 +1,61 @@
-# React + Vite
+# 🌐 CodeWeaver Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![GitHub repo size](https://img.shields.io/github/repo-size/your-username/codeweaver-landing?style=for-the-badge&color=green)
+![GitHub stars](https://img.shields.io/github/stars/your-username/codeweaver-landing?style=for-the-badge)
+![GitHub forks](https://img.shields.io/github/forks/your-username/codeweaver-landing?style=for-the-badge)
+![License](https://img.shields.io/github/license/your-username/codeweaver-landing?style=for-the-badge&color=blue)
 
-Currently, two official plugins are available:
+> A clean, modern, and responsive developer landing page built with React and Tailwind CSS.  
+> Designed with ❤️ by **Usman Mobeen** aka **CodeWeaver**.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🚀 Live Demo
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🌍 [View Live](https://your-deployed-site-link.com)
+
+---
+
+## 📸 Preview
+
+![Preview](./screenshot.png)
+
+---
+
+## 📦 Features
+
+✅ Fully Responsive  
+✅ Mobile-friendly Navigation Bar  
+✅ Hero Section with Smooth Typography  
+✅ Beautiful Color Palette using CSS Variables  
+✅ Built with React + Tailwind CSS  
+✅ Modern Footer with Social Media Icons  
+✅ Animations & Hover Effects  
+✅ Clean Folder Structure and Code
+
+---
+
+## 🛠️ Tech Stack
+
+- ⚛️ **React.js** – Front-end Library  
+- 🎨 **Tailwind CSS** – Utility-first CSS Framework  
+- 💡 **React Icons** – Icon Library for React
+
+---
+
+## 📁 Folder Structure
+
+```bash
+codeweaver-landing/
+├── public/
+│   └── index.html
+├── src/
+│   ├── components/
+│   │   ├── Navbar.jsx
+│   │   ├── Hero.jsx
+│   │   └── Footer.jsx
+│   ├── App.jsx
+│   ├── index.css
+│   └── main.jsx
+├── tailwind.config.js
+└── README.md
