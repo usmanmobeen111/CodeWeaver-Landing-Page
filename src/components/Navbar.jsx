@@ -1,11 +1,12 @@
 import React, { useState } from "react";
 import { FiMenu, FiX } from "react-icons/fi";
+import {motion} from "framer-motion"
 
 const navLinks = [
   { name: "Home", path: "#home" },
   { name: "About", path: "#about" },
-  { name: "Projects", path: "#projects" },
   { name: "Tech Stack", path: "#tech" },
+  { name: "Projects", path: "#projects" },
   { name: "Contact", path: "#contact" },
 ];
 
@@ -20,7 +21,12 @@ const Navbar = () => {
 
   return (
     <>
-      <nav className="flex justify-between px-10 items-center py-4 shadow-2xl shadow-black/20 bg-white fixed top-0 w-full z-50">
+      <motion.nav
+      initial={{opacity: 0, y:-100}}
+      animate ={{opacity : 1, y:0}}
+      transition={{duration: 0.5}}
+
+      className="flex justify-between px-10 items-center py-4 shadow-2xl shadow-black/20 bg-white fixed top-0 w-full z-50">
         <div className="logo text-slate-800 flex gap-2 items-center">
           <img className="w-10" src="/logo.svg" alt="Logo" />
           <h1 className="text-2xl font-bold">
@@ -52,7 +58,7 @@ const Navbar = () => {
             )}
           </button>
         </div>
-      </nav>
+      </motion.nav>
 
       {/* Mobile Menu */}
       <div

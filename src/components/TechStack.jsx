@@ -1,8 +1,10 @@
 import React from "react";
+import { motion } from "framer-motion";
 import { DiMongodb, DiMysql, DiNodejs } from "react-icons/di";
 import { FaCss3, FaGit, FaHtml5, FaJs, FaPhp, FaReact } from "react-icons/fa";
 import { SiCplusplus, SiExpress, SiTailwindcss } from "react-icons/si";
 
+// Tech icons array
 const techIcons = [
   { icon: <FaHtml5 />, name: "HTML", var: "--color-html" },
   { icon: <FaCss3 />, name: "CSS", var: "--color-css" },
@@ -18,6 +20,29 @@ const techIcons = [
   { icon: <SiCplusplus />, name: "C++", var: "--color-cpp" },
 ];
 
+// Animation Variants
+const containerVariants = {
+  hidden: {},
+  visible: {
+    transition: {
+      staggerChildren: 0.1,
+      delayChildren: 0.2,
+    },
+  },
+};
+
+const itemVariants = {
+  hidden: { opacity: 0, y: 50 },
+  visible: {
+    opacity: 1,
+    y: 0,
+    transition: {
+      duration: 0.5,
+      ease: "easeOut",
+    },
+  },
+};
+
 const TechStack = () => {
   return (
     <div className="bg-green-50 py-16 px-4" id="tech">
@@ -25,10 +50,17 @@ const TechStack = () => {
         Tech Stack
       </h1>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 max-w-5xl mx-auto">
+      <motion.div
+        className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 max-w-5xl mx-auto"
+        variants={containerVariants}
+        initial="hidden"
+        whileInView="visible"
+        viewport={{ once: true }}
+      >
         {techIcons.map((tech, index) => (
-          <div
+          <motion.div
             key={index}
+            variants={itemVariants}
             className="bg-white shadow-md p-6 rounded-xl flex flex-col items-center justify-center transition-transform duration-300 hover:scale-105 group"
             aria-label={tech.name}
           >
@@ -41,9 +73,9 @@ const TechStack = () => {
             <p className="mt-3 text-sm sm:text-base font-semibold text-gray-700 group-hover:text-current transition-colors duration-300">
               {tech.name}
             </p>
-          </div>
+          </motion.div>
         ))}
-      </div>
+      </motion.div>
     </div>
   );
 };
