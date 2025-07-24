@@ -12,7 +12,7 @@
 
 ## 🚀 Live Demo
 
-🌍 [View Live](https://your-deployed-site-link.com](https://code-weaver-landing-page-by-usman-m.vercel.app))
+🌍 [View Live](https://your-deployed-site-link.com](https://code-weaver-landing-page-by-usman-m.vercel.app/))
 
 ---
 
