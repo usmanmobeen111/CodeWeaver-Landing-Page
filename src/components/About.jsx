@@ -16,7 +16,7 @@ const About = () => {
         >
           <img
             className="w-full"
-            src="/src/assets/3d-illustration-person-with-sunglasses.png"
+            src="/3d-illustration-person-with-sunglasses.png"
             alt="Developer illustration"
           />
         </motion.div>

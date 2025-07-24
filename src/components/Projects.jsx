@@ -7,7 +7,7 @@ import { FaArrowRight } from "react-icons/fa6";
 const projects = [
   {
     title: "Cactus Website",
-    image: "/src/assets/cactus.png",
+    image: "/cactus.png",
     description: "A minimal and responsive cactus-themed website built using HTML, CSS, and JavaScript.",
     tech: ["html", "css", "js"],
     github: "https://github.com/usmanmobeen111/Cactus-Website",
@@ -15,7 +15,7 @@ const projects = [
   },
   {
     title: "Chips Website",
-    image: "/src/assets/chips.png",
+    image: "/chips.png",
     description: "A minimal and responsive chips-themed website built using HTML, CSS, and JavaScript.",
     tech: ["html", "css", "js"],
     github: "https://github.com/usmanmobeen111/Chips-Website",
@@ -23,7 +23,7 @@ const projects = [
   },
   {
     title: "Architecture Website",
-    image: "/src/assets/architecture.png",
+    image: "/architecture.png",
     description: "A minimal and responsive architecture-themed website built using HTML, CSS, and JavaScript.",
     tech: ["html", "css", "js"],
     github: "https://github.com/usmanmobeen111/Architecture-Website",
@@ -31,7 +31,7 @@ const projects = [
   },
   {
     title: "Sneakers Website",
-    image: "/src/assets/sneakers.png",
+    image: "/sneakers.png",
     description: "A minimal and responsive sneakers-themed website built using HTML, CSS, and JavaScript.",
     tech: ["html", "css", "js"],
     github: "https://github.com/usmanmobeen111/Sneaker-Website",
