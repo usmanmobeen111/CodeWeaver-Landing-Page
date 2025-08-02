@@ -17,7 +17,7 @@ const App = () => {
       <Projects/>
       <Contact/>
       <Footer/>
-
+/*By Abdul Wahab*/
     </div>
   )
 }
